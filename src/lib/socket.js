@@ -4,7 +4,7 @@ import { Message } from "../models/message.model.js";
 export const initializeSocket = (server) => {
 	const io = new Server(server, {
 		cors: {
-			origin: "https://spotify-super.netlify.app/",
+			origin: "https://spotify-frontend-navy.vercel.app",
 			credentials: true,
 		},
 	});
