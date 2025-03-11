@@ -29,7 +29,7 @@ initializeSocket(httpServer);
 
 app.use(
 	cors({
-		origin: "https://spotify-super.netlify.app",
+		origin: "https://spotify-super.netlify.app/",
 		credentials: true,
 	})
 );
