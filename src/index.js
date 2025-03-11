@@ -29,7 +29,7 @@ initializeSocket(httpServer);
 
 app.use(
 	cors({
-		origin: "https://capable-concha-35797b.netlify.app",
+		origin: "http://localhost:3000",
 		credentials: true,
 	})
 );
